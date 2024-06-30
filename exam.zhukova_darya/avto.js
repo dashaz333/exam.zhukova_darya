@@ -24,10 +24,10 @@ const users = [ //массив пользователей
     if (user) { //проверка пользователей
       if(user.role ==='admin'){
         alert(`Добро пожаловать,  ${user.login}! У вас есть административные права.`);
-        window.location.href = 'pet.html';
+        window.location.href = 'RetailItem.html';
       }else if(user.role === 'user'){
         alert(`Добро пожаловать,  ${user.login}! У вас есть пользовательские права.`);
-        window.location.href = 'pet.html';
+        window.location.href = 'RetailItem.html';
       }
     } else {
       alert('Неверный логин или пароль. Повторите попытку'); // всплывающее окно с текстом

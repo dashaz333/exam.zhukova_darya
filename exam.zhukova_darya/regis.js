@@ -18,6 +18,6 @@ registrationForm.addEventListener('submit', (event) => {
     localStorage.setItem('users', JSON.stringify(users));
 
     alert('Регистрация прошла успешно!');
-    window.location.href = 'pet.html'; 
+    window.location.href = 'RetailItem.html'; 
   }
 });
