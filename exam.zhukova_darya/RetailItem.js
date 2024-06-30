@@ -1,3 +1,5 @@
+//js 
+
 class RetailItem {  //класс с атрибутами описание, количество на складе, цена и новая цена
   constructor(description, quantityInStock, price, discountPercentage = 0) { //конструктор, который создает экземпляры
     this.description = description; //описание
@@ -75,3 +77,8 @@ items = [ //вывод того, что есть в задании
 updateItemsList();
 
 addItemButton.addEventListener("click", addItem); // добавление обработчика события на кнопку добавить
+
+const loginButton = document.getElementById('login-button');
+loginButton.addEventListener('click', () => {
+  window.location.href = 'avto.html'; 
+});

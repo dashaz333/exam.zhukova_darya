@@ -84,3 +84,18 @@ th {
 .delete-button:hover {
   background-color: #c82333; 
 } 
+
+/* Стили для кнопки "Вход" */
+#login-button {
+  background-color: #663399; /* Зеленый цвет */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
