@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Товары для розничной торговли</title>
+  <link rel="stylesheet" href="RetailItem.css">
+  <script src="RetailItem.js" defer></script>
+</head>
+<body>
+  <h1>Товары для розничной торговли</h1>
+  <button id="login-button">Вход</button>
+  <div class="form-container">
+    <h2>Добавить товар</h2>
+    <input type="text" id="descriptionInput" placeholder="Описание">
+    <input type="number" id="quantityInput" placeholder="Количество">
+    <input type="number" id="priceInput" placeholder="Цена">
+    <input type="number" id="discountInput" placeholder="Процент скидки">
+    <button id="addItemButton">Добавить</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>№</th>
+        <th>Описание</th>
+        <th>Количество на складе</th>
+        <th>Цена</th>
+        <th>Новая цена</th>
+      </tr>
+    </thead>
+    <tbody id="itemsTableBody"></tbody>
+  </table>
+</body>
+</html>
